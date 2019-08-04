@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.cover{
+    background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)), url('/RASPBY/344054-sepik.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    overflow-x: hidden;
+    color: #ffffff;
+}
+header{
+    margin: 0px 100px;
+    border-bottom: 3px solid #81c756;
+}
+.logo{
+    height: 100px;
+    width: auto;
+    margin: 20px;
+}
+.nav{
+    float: right;
+     font-size: 130%;
+}
+span{
+    color: #ffffff
+}
+li{
+    margin-top: 60px;
+    margin-right: 80px;
+    
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: #81c756;
+    padding: 5px;
+}
+
+li:hover{
+    border-bottom: 1px solid #fc1e64;
+    
+}
+.main-head{
+    font-size: 400%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%,-50%);
+    color: white;
+}
+.raspby{
+    color: #81c756;
+}
+
+.started{
+    position: absolute;
+    padding: 5px;
+    top: 70%;
+    left: 16%;
+    text-decoration: none;
+    color: white;
+    border: 2px solid #81c756;
+    border-radius: 50px;
+    animation: colorchange 1s infinite;
+}
+
+@keyframes colorchange{
+    0%{background-color: #fc1e64}
+    25%{background-color: #a3f470}
+    50%{background-color: #94e064}
+    75%{background-color: #81c954}
+    100%{background-color: #70b247}
+}
+
+.started:hover{
+    background-color: rgba(255, 0, 93, 0.5);
+}
+.sec-page{
+    background-image:linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8)) ,url(/RASPBY/Raspberry-HD-Desktop-Wallpaper-16909.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    overflow-x: hidden;
+    color: #ffffff;
+}
+.container{
+    font-size: 150%;
+    width: 50%;
+    margin: 0  100px;
+}
+.about-p{
+    margin-top: 50px;
+    font-size: 100%;
+    letter-spacing: 2px;
+
+}
+.th-page
+{
+    background-image:linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8)) ,url(/BOOTstrap/img/Raspberry-HD-Desktop-Wallpaper-16909.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+    overflow-x: hidden;
+    color: #ffffff;  
+}
+.form{
+    position: absolute;
+    top: 250%;
+    left: 30%;
+    transform: translate(-40%,-50%);
+    width: 50%;
+    margin: 0  100px;
+}
+input{
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #81c756;
+    background: transparent;
+}
+textarea{
+    color: white;
+    font-size: 20px;
+    border: none;
+    border: 1px solid #81c756;
+    background: transparent;
+}
+button{
+    background: transparent;
+    color: #81c756;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+button:hover{
+    background: rgba(255, 0, 93, 0.5);
+}
