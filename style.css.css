@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .cover{
-    background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)), url('/RASPBY/344054-sepik.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)), url('344054-sepik.jpg');
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
